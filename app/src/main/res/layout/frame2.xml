@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="943dp"
+        android:layout_height="1088dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/online" />
+
+    <Button
+        android:id="@+id/n_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Probability of getting a Numbered card"
+        android:background="@drawable/pink_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <Button
+        android:id="@+id/n_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RED"
+        android:background="@drawable/red_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <Button
+        android:id="@+id/n_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YELLOW"
+        android:background="@drawable/yellow_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <Button
+        android:id="@+id/n_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLUE"
+        android:background="@drawable/blue_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <Button
+        android:id="@+id/n_button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GREEN"
+        android:background="@drawable/green_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="407dp"
+        android:layout_height="97dp"
+        android:fontFamily="@font/new_fonts"
+        android:text="PROBABILITY OF GETTING A COLOR CARD SO FOR THAT PLEASE SELECT A COLOR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <Button
+        android:id="@+id/n_button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROBABILITY OF GETTING A SPECIFIC NUMBER CARD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/pink_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <Button
+        android:id="@+id/n_button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pink_button"
+        android:text="PROBABILITY OF GETTIING AN SPECIFC NUMBER CARD OF SPECIFIC COLOR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <Button
+        android:id="@+id/n_button7"
+        android:layout_width="127dp"
+        android:layout_height="51dp"
+        android:background="@drawable/pink_button"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="400dp"
+        android:layout_height="122dp"
+        android:fontFamily="@font/new_fonts"
+        android:text="Your Answer will be Wriiten Here."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.868" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="238dp"
+        android:layout_height="49dp"
+        android:background="@drawable/pink_button"
+        android:text="PROBABILITY OF GETTING AN O"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
